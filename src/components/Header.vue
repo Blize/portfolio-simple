@@ -2,6 +2,7 @@
   <nav>
     <router-link to="/" class="direction">Home</router-link>
     <router-link to="/about" class="direction">About</router-link>
+    <router-link to="/skills" class="direction">Skills</router-link>
   </nav>
 </template>
 

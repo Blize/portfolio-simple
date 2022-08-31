@@ -28,7 +28,6 @@ export default defineComponent({
 }
 h1 {
   font-size: 7rem;
-
   margin-bottom: -1rem;
 }
 .color {
