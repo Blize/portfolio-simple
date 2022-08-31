@@ -1,16 +1,18 @@
 <template>
-  <div class="home">
-    <h1 class="color">Skills</h1>
-    <h2>Here are some of the programming language I can code</h2>
-  </div>
-  <div class="container">
-    <div class="cube">
-      <div class="face top">HTML</div>
-      <div class="face bottom">Java Script</div>
-      <div class="face left">CSS</div>
-      <div class="face right">Vue</div>
-      <div class="face front">Python</div>
-      <div class="face back">Bash</div>
+  <div class="parent">
+    <div class="home">
+      <h1 class="color">Skills</h1>
+      <h2>Here are some of the programming language I can code</h2>
+    </div>
+    <div class="container">
+      <div class="cube">
+        <div class="face top">HTML</div>
+        <div class="face bottom">Java Script</div>
+        <div class="face left">CSS</div>
+        <div class="face right">Vue</div>
+        <div class="face front">Python</div>
+        <div class="face back">Bash</div>
+      </div>
     </div>
   </div>
 </template>
@@ -22,12 +24,17 @@ export default {
 </script>
 
 <style scoped>
+.parent {
+  display: flex;
+  flex-direction: row;
+  gap: 10rem;
+}
 .home {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
-  margin: 7% 0 0 1rem;
+  margin: 7% 0 0 2rem;
   text-align: left;
 }
 h1 {
@@ -100,5 +107,16 @@ h1 {
 
 .bottom {
   transform: translateY(100px) rotateX(-90deg);
+}
+@media only screen and (max-width: 1025px) {
+  .parent {
+    flex-direction: column;
+  }
+  .home {
+    margin: 1rem;
+  }
+  div.container {
+    margin: -12rem -1rem 0 -1rem;
+  }
 }
 </style>

@@ -22,11 +22,11 @@ nav {
   justify-content: flex-start;
   flex-direction: column;
   max-width: 77px;
-  border-right: 1px solid black;
+  border-right: 1px solid rgb(28, 28, 28);
   border-radius: 4px;
-  background-color: black;
+  background-color: rgb(28, 28, 28);
   width: fit-content;
-  height: 100%;
+  min-height: 100%;
   padding: 1rem;
   margin: 0;
 }
