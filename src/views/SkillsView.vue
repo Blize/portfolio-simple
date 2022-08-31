@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <h1 class="color">Skills</h1>
-    <h2>Here are some of the "programming" language I can code</h2>
+    <h2>Here are some of the programming language I can code</h2>
   </div>
   <div class="container">
     <div class="cube">
