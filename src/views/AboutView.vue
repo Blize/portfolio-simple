@@ -8,13 +8,11 @@
       <h1>T</h1>
     </div>
     <h2>
-      Hey there, I am a 17 years young developer and designer. I live in
-      Kappelen.<br />
-      This is a small village near to Lyss. I am at my second year at
-      swisscom.<br />
+      Hey there, I am a 17 years young developer and designer. I live in a
+      <br />
+      small village near to Lyss. I am at my second year at swisscom.<br />
       I am an application developer, and have experienced many areas of computer
       science.<br />
-      Below here you can see my hobbies and more.
     </h2>
   </div>
 </template>
