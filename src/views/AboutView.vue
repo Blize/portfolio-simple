@@ -10,8 +10,8 @@
     <h2>
       Hey there, I am a 17 years young developer and designer. I live in a
       <br />
-      small village near to Lyss. I am at my second year at swisscom.<br />
-      I am an application developer, and have experienced many areas of computer
+      small village in Bern. I am at my second year at swisscom.<br />
+      I am an application developer and have experienced many areas of computer
       science.<br />
     </h2>
   </div>
